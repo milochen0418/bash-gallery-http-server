@@ -10,3 +10,6 @@ Then browser can open http://[you_host]:3344 to see the gallery of the photos in
 ## Support version
 We only support Ubuntu 16.04 first because Ubuntu 16.04 can run in a lot of cloud server and also in most popular embedded linux system Raspberry Pi.   When we support Ubuntu 16.04 first, we can support most devicd and cloud server in the world.  
 
+## Dependency
+The magician command gallery-http-server is fully dependent to this project  
+https://github.com/milochen0418/gallery-web-generator  
