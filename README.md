@@ -1,5 +1,5 @@
 # bash-gallery-http-server  
-## Purpose   
+## Purpose: http-server-like utility but the webpage is show in cool gallery   
 In nodejs, you can call http-server in any folder and your node can service this data of current as in the web.  
 But some time we want to have a gallery-http-server to just show gallery on the web but not documents like http-server.  
 So we can make some thing like   gallery-http-server.sh [port_number] to show photos in a ncie gallery view.  
