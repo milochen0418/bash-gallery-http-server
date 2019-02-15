@@ -7,5 +7,6 @@ $ cd some_photos
 $ gallery-http-server.sh 3344    
   
 Then browser can open http://[you_host]:3344 to see the gallery of the photos in ./some_photos   
-
+## Support version
+We only support Ubuntu 16.04 first because Ubuntu 16.04 can run in a lot of cloud server and also in most popular embedded linux system Raspberry Pi.   When we support Ubuntu 16.04 first, we can support most devicd and cloud server in the world.  
 
