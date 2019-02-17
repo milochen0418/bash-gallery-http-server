@@ -2,8 +2,28 @@
 
 PORT_NUM=5566
 #TOPIC=ALL
-SRC_DIR=/home/joanmirochen/nodejs/test/downloads/校花
+SRC_DIR=$PWD
+#SRC_DIR=/home/joanmirochen/nodejs/test/downloads/校花
 #SRC_DIR=/home/joanmirochen/nodejs/downloads/辣妹
+
+echo "SRC_DIR=$SRC_DIR"
+#exit 0
+if [ $# -ne 0 ]; then
+	if [ "$1" = "--help" ]; then
+		echo "gallery-http-server [PORT_NUM] [SRC_DIR]"
+		echo "PORT_NUM(optional) : the port number you want to use. default is $PORT_NUM"
+		echo "SRC_DIR(optional : the photos you want to show is in SRC_DIR. default is $SRC_DIR"
+		exit 0
+	fi	
+fi 
+
+if [ $# -gt 0 ]; then
+	PORT_NUM=$1
+fi
+
+if [ $# -gt 1 ]; then
+	SRC_DIR=$2
+fi 
 
 
 # record current folder
