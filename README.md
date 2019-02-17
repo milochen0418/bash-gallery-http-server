@@ -21,8 +21,9 @@ $ gallery-http-server 2267 ~/Downloads
 Browser open http://yourhost:2267  and you can see all pictures in ~/Downloads 
 
 # Demo Pictures
-![image](https://github.com/milochen0418/github-readme-material/blob/master/bash-gallery-http-server/picture_01.png)
-![image](https://github.com/milochen0418/github-readme-material/blob/master/bash-gallery-http-server/picture_02.png)
+![image](https://github.com/milochen0418/github-readme-material/blob/master/bash-gallery-http-server/picture_01.png)  
+![image](https://github.com/milochen0418/github-readme-material/blob/master/bash-gallery-http-server/picture_02.png)  
+![image](https://github.com/milochen0418/github-readme-material/blob/master/bash-gallery-http-server/picture_03.png)  
 
 # History 
 ## bash-gallery-http-server original design concept
