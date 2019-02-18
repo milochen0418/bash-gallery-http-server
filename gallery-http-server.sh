@@ -26,6 +26,9 @@ if [ $# -gt 1 ]; then
 fi 
 
 
+
+
+
 # record current folder
 CURDIR=$(pwd)
 BACKDIR=""
@@ -33,6 +36,23 @@ CURDIR_FP=/tmp/gallery-http-server-curdir_$(date '+%Y-%m-%dT%H:%M:%S').txt
 rm -f $CURDIR_FP
 echo $CURDIR > $CURDIR_FP
 
+
+
+#Convert to SRC_DIR to absolute file path if it is relative file path
+function getfullpath ()
+{
+	local dir=$(dirname $1)
+	local base=$(basename $1)
+	if test -d ${dir}; then
+		pushd ${dir} >/dev/null 2>&1
+		echo ${PWD}/${base}
+		popd >/dev/null 2>&1
+		return 0
+	fi
+	return 1
+}
+FULL_FILE_PATH_SRC_DIR=$(getfullpath $SRC_DIR)
+SRC_DIR=$FULL_FILE_PATH_SRC_DIR
 
 #make md5sum
 cd $SRC_DIR
