@@ -41,3 +41,8 @@ We only support Ubuntu 16.04 first because Ubuntu 16.04 can run in a lot of clou
 ### Dependency
 The magician command gallery-http-server is fully dependent to this project  
 https://github.com/milochen0418/gallery-web-generator  
+
+
+# Future Plan
+## About VR Gallery 
+https://www.npmjs.com/package/react-vr-image-gallery 
