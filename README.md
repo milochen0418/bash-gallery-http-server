@@ -1,8 +1,8 @@
 
 # Purpose of  bash-gallery-http-server project 
 In nodejs, you can use $ http-server  to open currently folder  
-In the project bash-gallery-http-server, we let you do gallery-http-server to show gallery of your photos on web  
-
+In the project bash-gallery-http-server, we let you do gallery-http-server to show gallery of your photos on web   
+The basn command have been tested on Ubuntu 16.04, Ubuntu 16.10 & Ubuntu 18.04. That's work fine  
 # Installation
 $ sudo ./install.sh
 
